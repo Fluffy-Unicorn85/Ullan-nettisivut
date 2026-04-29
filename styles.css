@@ -8,7 +8,6 @@ h1 {
   font-size: 60px;
   text-align: center;
 }
-
 p,
 li {
   font-size: 20px;
@@ -32,4 +31,38 @@ blockquote p::after {
 
 blockquote + p {
   text-align: center;
+}
+.div-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+.div-gallery img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+}
+nav {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+nav ul li a:hover {
+  text-decoration: underline;
 }
