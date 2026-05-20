@@ -22,11 +22,11 @@ div:has(> blockquote) {
 }
 
 blockquote p::before {
-  content: "\201C";
+  content: "\101C";
 }
 
 blockquote p::after {
-  content: "\201D";
+  content: "\101D";
 }
 
 blockquote + p {
